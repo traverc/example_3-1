@@ -246,7 +246,7 @@ void uartTask()
 
 void availableCommands()
 {
-    uartUsb.write( "Available commands:\r\n", 21 );
+    uartUsb.write( "Available commands:::\r\n", 23 );
     uartUsb.write( "Press '1' to get the alarm state\r\n", 34 );
     uartUsb.write( "Press '2' to get the gas detector state\r\n", 41 );
     uartUsb.write( "Press '3' to get the over temperature detector state\r\n", 54 );
